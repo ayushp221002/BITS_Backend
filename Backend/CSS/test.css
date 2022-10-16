@@ -1,0 +1,196 @@
+body {
+  background-color: #b9d9eb;
+  padding: none;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 10px;
+  align-items: center;
+  position: sticky;
+  /* background-color: #72a0c1; */
+  background-color: #c2d7e5;
+}
+
+footer {
+  padding: 30px 0px;
+  background-color: #c2d7e5;
+}
+
+/* navigation bar */
+.homepage {
+  display: block;
+  width: 100%;
+}
+
+.logo {
+  font-size: 300%;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.first-half {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1px;
+}
+
+.second-half {
+  gap: 10px;
+}
+
+.symbol1 {
+  padding: 20px 20px;
+  font-size: 100%;
+  transition-duration: 200ms;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+
+.symbol2 {
+  font-weight: bold;
+  border-radius: 15px;
+  padding: 10px 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(99, 102, 241);
+  transition-duration: 200ms;
+}
+
+.dropbtn {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  background-color: transparent;
+  padding: 16px;
+  font-size: 100%;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Sign in and sign up page */
+.sign-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -200px;
+  margin-left: -160px;
+  background-color: white;
+  height: 330px;
+  width: 330px;
+  padding: 20px 20px;
+  border-radius: 0.125em;
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+}
+
+.sign {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: bold;
+}
+
+.user-input {
+  padding: 15px;
+  width: 300px;
+  border-radius: 10px;
+  border: 2px solid;
+  border-color: #dadada;
+}
+
+.submit-button {
+  display: flex;
+  /* align-items: center; */
+  justify-content: flex-end;
+}
+
+.submit {
+  background-color: #1d4ed8;
+  color: white;
+  font-size: medium;
+  border-radius: 999px;
+  padding: 15px 20px;
+  border-color: transparent;
+}
+
+/* Support page */
+.support-element {
+  margin: 30px 15px;
+  display: inline-flex;
+  /* my-10 inline-flex */
+}
+
+.element {
+  padding: 30px 0px;
+  margin-left: 20px;
+  border: transparent;
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  /* py-10 ml-6 bg-white shadow-lg */
+}
+
+.element2 {
+  padding: 30px 0px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border: transparent;
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  /* py-10 ml-6 mr-6 bg-white shadow-lg */
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+}
+
+/* .login-form {
+  padding: 10px;
+  margin: auto;
+  width: 25%;
+  background-color: white;
+}
+
+
+
+
+
+a:focus {
+  background-color: #f0f8ff;
+}
+
+a:hover {
+  background-color: #f0f8ff;
+} */

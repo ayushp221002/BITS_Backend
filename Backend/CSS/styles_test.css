@@ -1,0 +1,7 @@
+#controls{
+    margin: 30px;
+}
+
+#controls button label{
+    float: left;
+}
